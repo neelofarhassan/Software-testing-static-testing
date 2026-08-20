@@ -35,6 +35,7 @@ class BTTest {
 
     @Test
     public void countMultiNodesTreeTest() {
+        assertTrue(false);
     }
 
     @Test
