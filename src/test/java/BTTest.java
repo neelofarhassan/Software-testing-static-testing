@@ -40,6 +40,7 @@ class BTTest {
 
     @Test
     void inorderEmptyTree() {
+        assertTrue(false);
     }
 
 }
