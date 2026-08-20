@@ -5,18 +5,12 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class UserService {
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws Exception {
+        String name = null;
 
-        // External, potentially attacker-controlled input
-        String script = System.getenv("SCRIPTNAME");
-
-        if (script != null) {
-
-            // VULNERABLE:
-            // User-controlled value passed directly to Runtime.exec()
-            Runtime.getRuntime().exec(script);
-        }
+        // Potential NullPointerException
+        System.out.println(name.toUpperCase());
     }
 }
 
