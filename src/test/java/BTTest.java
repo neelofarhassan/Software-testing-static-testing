@@ -30,6 +30,7 @@ class BTTest {
 
     @Test
     public void countOneNodeTreeTest() {
+        assertFalse(true);
     }
 
     @Test
