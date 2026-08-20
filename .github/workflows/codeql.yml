@@ -36,6 +36,7 @@ jobs:
         with:
           languages: java-kotlin
           build-mode: manual
+          debug: true
 
       # 4. Compile Java while CodeQL observes the build
       - name: Build project
