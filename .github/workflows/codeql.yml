@@ -35,7 +35,7 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: java-kotlin
-          #build-mode: manual
+          build-mode: manual
 
       # 4. Compile Java while CodeQL observes the build
       - name: Build project
