@@ -37,10 +37,10 @@ class BTTest {
     void inorderEmptyTree() {
 
     }
-//
-//    @Test
-//    public void countOneNodeTreeTest() {
-//        assertFalse(true);
-//    }
+
+    @Test
+    public void countOneNodeTreeTest() {
+        assertFalse(true);
+    }
 
 }
